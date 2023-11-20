@@ -19,7 +19,7 @@ services:
       - mysql
 
   minio:
-    image: minio/minio:latest
+    image: docker.io/bitnami/minio:2022
     ports:
       - "9000:9000"
       - "9001:9001"
