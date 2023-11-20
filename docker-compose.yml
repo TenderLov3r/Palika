@@ -15,4 +15,4 @@ services:
     links:
       - mysql:db
     depends_on:
-      - mysql:db
+      - mysql
