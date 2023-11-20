@@ -13,6 +13,6 @@ services:
     ports:
       - "80:80"
     links:
-      - mysql
+      - mysql:db
     depends_on:
-      - mysql
+      - mysql:db
