@@ -28,9 +28,9 @@ services:
     volumes:
       - 'minio_data:/data'
     environment:
-      - MINIO_ROOT_USER: root
-      - MINIO_ROOT_PASSWORD: aezakmi
-      - MINIO_DEFAULT_BUCKETS: test
+      - MINIO_ROOT_USER=root
+      - MINIO_ROOT_PASSWORD=aezakmi
+      - MINIO_DEFAULT_BUCKETS=test
       
 networks:
   minionetwork: 
